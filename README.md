@@ -1,1 +1,3 @@
-# ray_experiments
+# Ray Experiments
+
+Experiments with BAIR Ray Project
