@@ -1,3 +1,4 @@
 ray
 pandas
 tabulate
+pandas-profiling[notebook]
