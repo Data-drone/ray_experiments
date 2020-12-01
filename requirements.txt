@@ -3,3 +3,4 @@ pandas
 tabulate
 pandas-profiling[notebook]
 featuretools
+tune-sklearn
