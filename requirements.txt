@@ -4,3 +4,4 @@ tabulate
 pandas-profiling[notebook]
 featuretools
 tune-sklearn
+tensorboardx

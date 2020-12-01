@@ -2,3 +2,4 @@ kaggle.json
 .ipynb_checkpoints/*
 *.zip
 data/*
+test_report_assets/*
