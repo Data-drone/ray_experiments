@@ -5,3 +5,5 @@ pandas-profiling[notebook]
 featuretools
 tune-sklearn
 tensorboardx
+xgboost
+ipympl
