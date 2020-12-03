@@ -7,3 +7,5 @@ tune-sklearn
 tensorboardx
 xgboost
 ipympl
+shap
+lime
