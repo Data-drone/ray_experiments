@@ -3,3 +3,4 @@ kaggle.json
 *.zip
 data/*
 test_report_assets/*
+*.html
