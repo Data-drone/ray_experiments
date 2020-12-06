@@ -36,12 +36,12 @@ X_train, X_test, y_train, y_test = \
 
 dtrain = xgb.DMatrix(X_train, label=y_train)
 
-num_boost_round = 100
+num_boost_round = 300
 params = {
     # Parameters that we are going to tune.
-    'max_depth':6,
+    'max_depth':5,
     'min_child_weight': 1,
-    'eta':.3,
+    'eta':.1,
     'subsample': 1,
     'colsample_bytree': 1,
     # Other parameters
@@ -73,7 +73,7 @@ for max_depth, min_child_weight in gridsearch_params:
         dtrain,
         num_boost_round=num_boost_round,
         seed=42,
-        nfold=5,
+        nfold=10,
         metrics={'auc'},
         early_stopping_rounds=20
     )
@@ -85,7 +85,7 @@ for max_depth, min_child_weight in gridsearch_params:
         max_auc = mean_auc
         best_params = (max_depth,min_child_weight)
 
-
+print("Best params: {}, {}, AUC: {}".format(best_params[0], best_params[1], max_auc))
 
 ## Instantiating xgboost
 # default lambda = 1 
