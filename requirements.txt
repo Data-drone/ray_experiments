@@ -9,3 +9,6 @@ xgboost
 ipympl
 shap
 lime
+sweetviz
+xlrd
+autoviz
