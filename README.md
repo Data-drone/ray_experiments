@@ -24,6 +24,7 @@ https://www.kaggle.com/c/santander-customer-transaction-prediction/
 
 - Build out the right features so that AutoML performs better
   - look at diff between distributions between target = 1 and target = 0
+  - presence in test vs train sets
 
 - Then shuffle out the explainability bits.
 
