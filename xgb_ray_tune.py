@@ -13,8 +13,9 @@ def train_santander(config):
     # Load dataset
     #data, labels = sklearn.datasets.load_breast_cancer(return_X_y=True)
 
-    train = pd.read_csv("/home/jovyan/work/ray_experiments/data/train.csv")
-    
+    #train = pd.read_csv("/home/jovyan/work/ray_experiments/data/train.csv")
+    train = pd.read_feather("/home/jovyan/work/ray_experiments/data/train_feat_1_baseline.feather")
+
     data = train.drop(['target', 'ID_code'], axis=1)
     labels = train['target']
 
@@ -51,9 +52,11 @@ if __name__ == '__main__':
     }
 
     scheduler = ASHAScheduler(
-        max_t=10,  # 10 training iterations
+        max_t=30,  # 10 training iterations
         grace_period=1,
         reduction_factor=2)
+
+    # resources is set per trial so even the current setting can max out computer
 
     analysis = tune.run(
         train_santander,
