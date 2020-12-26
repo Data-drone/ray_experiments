@@ -29,10 +29,10 @@ https://www.kaggle.com/c/santander-customer-transaction-prediction/
 - Then shuffle out the explainability bits.
 
 - Focus more on the AutoML bits once we work out a subset of features to do the modelling bit.
-  - mljar
-  - pycaret
-  - tpot + cudf
-  - ray options
+  - mljar - https://medium.com/@MLJARofficial/mljar-supervised-automl-with-explanations-and-markdown-reports-36d5104e117
+  - pycaret - https://medium.com/analytics-vidhya/first-medium-blog-on-auto-ml-pycaret-a6deb5748fba
+  - tpot + cudf - https://medium.com/rapids-ai/two-years-in-a-snap-rapids-0-16-ae797795a5c4
+  - ray options - https://medium.com/rapids-ai/30x-faster-hyperparameter-search-with-raytune-and-rapids-403013fbefc5
 
 ### Extra Notes
 
