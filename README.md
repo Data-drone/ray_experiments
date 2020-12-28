@@ -22,6 +22,9 @@ https://www.kaggle.com/c/santander-customer-transaction-prediction/
 
 ### To Dos
 
+- Get different kernels setup for different packages to prevent issues with compatabilities
+  - https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084
+
 - Build out the right features so that AutoML performs better
   - look at diff between distributions between target = 1 and target = 0
   - presence in test vs train sets
