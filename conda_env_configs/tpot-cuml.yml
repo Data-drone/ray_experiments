@@ -1,0 +1,16 @@
+channels:
+  - rapidsai
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.5
+  - cudatoolkit>11
+  - cuml=0.17
+  - scikit-learn
+  - ipykernel
+  - ipywidgets
+  - pip
+  - pip:
+    - xgboost
+    - tpot
