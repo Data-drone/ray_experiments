@@ -4,3 +4,7 @@ kaggle.json
 data/*
 test_report_assets/*
 *.html
+__pycache__/*
+__tmp__/*
+dask-worker-space/*
+static/*

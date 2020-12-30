@@ -9,6 +9,7 @@ dependencies:
   - cuml=0.17
   - scikit-learn
   - ipykernel
+  - dask-ml
   - ipywidgets
   - pip
   - pip:
