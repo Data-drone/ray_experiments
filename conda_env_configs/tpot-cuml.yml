@@ -10,6 +10,7 @@ dependencies:
   - scikit-learn
   - ipykernel
   - dask-ml
+  - dask-cuda
   - ipywidgets
   - pip
   - pip:
